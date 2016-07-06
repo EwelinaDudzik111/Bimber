@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>bimber</title>
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
-
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
@@ -16,51 +13,65 @@
     <!-- endbuild -->
 
     <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/main.css" type="text/css"/>
     <!-- endbuild -->
 
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
+    <link rel="stylesheet" href="fontello/css/fontello.css" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">bimber</h3>
-      </div>
+    <div id="container">
 
-      <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-      </div>
+      <div id="topbar">
+        <div id="header">
+          <button class="icon" style="float: right"><i class="icon-facebook"></i></button>
+          <button  class="icon" style="float: right"> ZALOGUJ </button>
+          <input type="password" placeholder="PASSWORD" onfocus="this.placeholder=''" onblur="this.placeholder='PASSWORD'" class="login" style="float: right"/>
+          <input type="text" placeholder="LOGIN" onfocus="this.placeholder=''" onblur="this.placeholder='LOGIN'" class="login" style="float: right"/>
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-          <h4>Modernizr</h4>
-          <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
-
+        <div style="clear: both"> </div>
         </div>
       </div>
 
-      <div class="footer">
-        <p>♥ from the Yeoman team</p>
+
+      <div id="container2">
+        <div id="empty"></div>
+        <div id="content">
+          <div id="socialdiv">
+         <button class="social">GRAJ ZA DARMO!</button>
+            <button class="socialfb"><i class="icon-facebook"></i> </button>
+         <div style="clear: both"></div></div>
+          <br/>
+
+          <p><span class="text"> Booze Tycoon</span> is a browser-based onlinegame which meansthat you do not need to install anything, just registerand you can start to play! Once logged in you brew sinfulalcohol and the money you make becomes the base in thebuilding of your mighty empire. Buy better burners, factories,bars, nightblubs, coalmines and everything else that isneeded to become the best in <span class="text">Booze Tycoon</span> </p>
+        </div>
       </div>
+      <div id="ad">
+
+      </div>
+      <div id="container3">
+        <div class="header">Otwarta Beta</div>
+        <div class="tile"><p><span class="text"> Booze Tycoon</span> is a browser-based onlinegame which meansthat you do not need to install anything, just registerand you can start to play! Once logged in you brew sinfulalcohol and the money you make becomes the base in thebuilding of your mighty empire. Buy better burners, factories,bars, nightblubs, coalmines and everything else that isneeded to become the best in <span class="text">Booze Tycoon</span> </p>
+        </div></div>
+      <br/><br/>
+        <div class="header"> Otwarta Beta</div>
+        <div class="tile"><p><span class="text"> Booze Tycoon</span> is a browser-based onlinegame which meansthat you do not need to install anything, just registerand you can start to play! Once logged in you brew sinfulalcohol and the money you make becomes the base in thebuilding of your mighty empire. Buy better burners, factories,bars, nightblubs, coalmines and everything else that isneeded to become the best in <span class="text">Booze Tycoon</span> </p>
+        </div></div>
+      </div>
+    <br/><br/><br/>
+    <div id="footer"></div>
+
+
     </div>
+
+
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
