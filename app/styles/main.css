@@ -31,13 +31,15 @@ body {
 
 #topbar {
   width: 100%;
-  height: 20px;
+  height: 30px;
 }
 #header
 {
   max-width: 900px;
+  height: 30px;
   margin-left: auto;
   margin-right: auto;
+  padding: 7px;
 }
 
 #container2
@@ -85,9 +87,10 @@ body {
   background-color: #4668b3;
   border-color:white;
   border-radius: 6px;
-  font-size: 50px;
+  font-size: 30px;
   color: white;
   margin-left: 4px;
+  padding: 10px;
 }
 .login
 {
@@ -152,3 +155,30 @@ body {
   width: 100%;
   height: 20px;
 }
+
+.modal-title
+{
+  color: black;
+  text-align: left;
+}
+.modal-text
+{
+  color: black;
+  text-align: left;
+}
+
+.modal-body
+{
+  color: black;
+  text-align: left;
+  background-color: #D9D9F3;
+}
+.modal-footer
+{
+  background-color: #D9D9F3;
+}
+.modal-header
+{
+  background-color: #D9D9F3;
+}
+
