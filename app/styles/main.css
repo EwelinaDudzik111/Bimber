@@ -160,25 +160,61 @@ body {
 {
   color: black;
   text-align: left;
+  margin-bottom: 20px;
 }
 .modal-text
 {
   color: black;
   text-align: left;
+  border-bottom: 2px dotted white;
+  font-size: 12px;
+
 }
 
 .modal-body
 {
   color: black;
   text-align: left;
-  background-color: #D9D9F3;
+  background-color: #e5e8f3;
+  font-size: 12px;
 }
 .modal-footer
 {
-  background-color: #D9D9F3;
+  background-color: #e5e8f3;
+  border-top: 2px dotted white;
 }
 .modal-header
 {
-  background-color: #D9D9F3;
+  background-color: #e5e8f3;
 }
+#mail
+{
+  width: 200px;
+  height: 20px;
+}
+#nick
+{
+  width: 200px;
+  height: 20px;
+}
+#password
+{
+  width: 200px;
+  height: 20px;
 
+}
+#repassword
+{
+  width: 200px;
+  height: 20px;
+}
+#country
+{
+  width: 200px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+label
+{
+  margin-top: 5px;
+}

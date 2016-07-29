@@ -61,7 +61,6 @@
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h4 class="modal-title">Rejestracja</h4>
-                    <br/>
                     <div class="modal-text">
                       <p>Po rejestracji używaj swojego adresu e-mail podczas logowania na konto. Na raz założonym koncie możesz posiadać do trzech postaci jednocześnie.</p>
                     </div>
@@ -70,29 +69,25 @@
                     <form id="regForm" name="regForm" class="" method="post" action="?p=register&amp;r=">
                       <input type="hidden" class="hidden" name="ref" value="">
                       <input type="hidden" name="reg_form" id="E-mail" value="yes" class="hidden">
-                      <label>E-Mail</label>
+                      <label for="mail">E-Mail</label>
                       <div>
-                        <input tabindex="1" type="text" maxlength="60" name="mail" value="" valid="false"/>
-                        <span class="nickStatus"></span>
+                        <input tabindex="1" type="text" maxlength="60" name="mail" id="mail" value="" />
                       </div>
-                      <label>Nick</label>
+                      <label for="nick">Nick</label>
                       <div>
-                        <input tabindex="2" type="text" maxlength="60" name="nick" valid="false"/>
-                        <span class="nickStatus"></span>
+                        <input tabindex="2" type="text" maxlength="60" name="nick" id="nick" />
                       </div>
-                      <label>Hasło</label>
+                      <label for="repassword">Hasło</label>
                       <div>
-                        <input tabindex="3" type="password" maxlength="20" name="password" valid="false"/>
-                        <span class="passwordStatus"></span>
+                        <input tabindex="3" type="password" maxlength="20" name="password" id="password" />
                       </div>
-                      <label>Powtórz hasło</label>
+                      <label for="repassword">Powtórz hasło</label>
                       <div>
-                        <input tabindex="4" type="password" maxlength="20" name="password2" valid="false">
-                        <span class="password2Status"></span>
+                        <input tabindex="4" type="password" maxlength="20" name="password2" id="repassword" >
                       </div>
-                      <label>Państwo</label>
+                      <label for="country">Państwo</label>
                       <div>
-                        <select class="" tabindex="11" name="country" size="1">
+                        <select class="" tabindex="11"  name="country" id="country" size="1">
 
                           <option value="PL">Poland</option>
                           <option value="US">United States</option>
@@ -283,8 +278,8 @@
                           <option value="VN">Vietnam</option>
                           <option value="WF">Wallis and Futuna Islands</option>
                           <option value="YE">Yemen</option>
-                          <option value="ZM">Zambia</option>								</select>
-                        <span class="countryStatus"></span>
+                          <option value="ZM">Zambia</option>
+                        </select>
                       </div>
                       <p>Rejestrując akceptuje  <a href="#" id="userAgreement">Regulamin</a>.</p>
                       <button type="button" name="submit" id="submit" class="b10" disabled="">Rejestruj</button>
