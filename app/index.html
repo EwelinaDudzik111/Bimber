@@ -14,23 +14,17 @@
 
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css" type="text/css"/>
+    <link rel="stylesheet" href="fontello/css/fontello.css" type="text/css"/>
     <!-- endbuild -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
-    <link rel="stylesheet" href="fontello/css/fontello.css" type="text/css"/>
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
     <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-    <script src="scripts/main.js"></script>
-    <script src="scripts/reg-validation.js"></script>
 
   </head>
   <body>
@@ -57,7 +51,7 @@
           <div id="socialdiv">
             <button type="button" class="social" data-toggle="modal" data-target="#myModal">GRAJ ZA DARMO!</button>
             <button class="socialfb"><i class="icon-facebook"></i> </button>
-         <div style="clear: both"></div>
+            <div style="clear: both"></div>
             <!-- Modal -->
             <div class="modal fade" id="myModal" role="dialog">
               <div class="modal-dialog">
@@ -292,7 +286,6 @@
                           <option value="ZM">Zambia</option>								</select>
                         <span class="countryStatus"></span>
                       </div>
-                      </form>
                       <p>Rejestrując akceptuje  <a href="#" id="userAgreement">Regulamin</a>.</p>
                       <button type="button" name="submit" id="submit" class="b10" disabled="">Rejestruj</button>
                     </form>
@@ -317,19 +310,23 @@
 
       </div>
       <div id="container3">
-        <div class="header">Otwarta Beta</div>
-        <div class="tile"><p><span class="text"> Booze Tycoon</span> is a browser-based onlinegame which meansthat you do not need to install anything, just registerand you can start to play! Once logged in you brew sinfulalcohol and the money you make becomes the base in thebuilding of your mighty empire. Buy better burners, factories,bars, nightblubs, coalmines and everything else that isneeded to become the best in <span class="text">Booze Tycoon</span> </p>
-        </div></div>
-      <br/><br/>
-        <div class="header"> Otwarta Beta</div>
-        <div class="tile"><p><span class="text"> Booze Tycoon</span> is a browser-based onlinegame which meansthat you do not need to install anything, just registerand you can start to play! Once logged in you brew sinfulalcohol and the money you make becomes the base in thebuilding of your mighty empire. Buy better burners, factories,bars, nightblubs, coalmines and everything else that isneeded to become the best in <span class="text">Booze Tycoon</span> </p>
-        </div></div>
-    <br/><br/><br/>
-    <div id="footer"></div>
-
-
-
-
+        <div>
+          <div class="header">Otwarta Beta</div>
+          <div class="tile">
+            <p><span class="text"> Booze Tycoon</span> is a browser-based onlinegame which meansthat you do not need to install anything, just registerand you can start to play! Once logged in you brew sinfulalcohol and the money you make becomes the base in thebuilding of your mighty empire. Buy better burners, factories,bars, nightblubs, coalmines and everything else that isneeded to become the best in <span class="text">Booze Tycoon</span> </p>
+          </div>
+        </div>
+        <br/><br/>
+        <div>
+          <div class="header"> Otwarta Beta</div>
+          <div class="tile">
+            <p><span class="text"> Booze Tycoon</span> is a browser-based onlinegame which meansthat you do not need to install anything, just registerand you can start to play! Once logged in you brew sinfulalcohol and the money you make becomes the base in thebuilding of your mighty empire. Buy better burners, factories,bars, nightblubs, coalmines and everything else that isneeded to become the best in <span class="text">Booze Tycoon</span> </p>
+          </div>
+        </div>
+      </div>
+      <br/><br/><br/>
+      <div id="footer"></div>
+    </div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -363,7 +360,8 @@
     <!-- endbuild -->
 
     <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
+      <script src="scripts/main.js"></script>
+      <script src="scripts/reg-validation.js"></script>
     <!-- endbuild -->
   </body>
 </html>
